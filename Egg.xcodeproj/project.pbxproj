@@ -11,11 +11,22 @@
 		3F2ED6922CDB83D600DA9C79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2ED6912CDB83D600DA9C79 /* ContentView.swift */; };
 		3F2ED6942CDB83D800DA9C79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F2ED6932CDB83D800DA9C79 /* Assets.xcassets */; };
 		3F2ED6972CDB83D800DA9C79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F2ED6962CDB83D800DA9C79 /* Preview Assets.xcassets */; };
-		3F2ED6A22CDB85AC00DA9C79 /* NeverMindPixel-5pixel.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F2ED69D2CDB85AC00DA9C79 /* NeverMindPixel-5pixel.ttf */; };
-		3F2ED6A32CDB85AC00DA9C79 /* NeverMindPixel-7pixel.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F2ED69E2CDB85AC00DA9C79 /* NeverMindPixel-7pixel.ttf */; };
-		3F2ED6A42CDB85AC00DA9C79 /* NeverMindPixel-9pixel.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F2ED69F2CDB85AC00DA9C79 /* NeverMindPixel-9pixel.ttf */; };
-		3F2ED6A52CDB85AC00DA9C79 /* NeverMindPixel-11pixel.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F2ED6A02CDB85AC00DA9C79 /* NeverMindPixel-11pixel.ttf */; };
+		3F2ED6A82CDB875B00DA9C79 /* 方舟像素.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F2ED6A72CDB875B00DA9C79 /* 方舟像素.ttf */; };
+		3F2ED6D22CDF144900DA9C79 /* EggAni.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2ED6D12CDF144900DA9C79 /* EggAni.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3F2ED6BD2CDCD71600DA9C79 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3F2ED68C2CDB83D600DA9C79 /* Egg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Egg.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -23,10 +34,10 @@
 		3F2ED6912CDB83D600DA9C79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3F2ED6932CDB83D800DA9C79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F2ED6962CDB83D800DA9C79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3F2ED69D2CDB85AC00DA9C79 /* NeverMindPixel-5pixel.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeverMindPixel-5pixel.ttf"; sourceTree = "<group>"; };
-		3F2ED69E2CDB85AC00DA9C79 /* NeverMindPixel-7pixel.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeverMindPixel-7pixel.ttf"; sourceTree = "<group>"; };
-		3F2ED69F2CDB85AC00DA9C79 /* NeverMindPixel-9pixel.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeverMindPixel-9pixel.ttf"; sourceTree = "<group>"; };
-		3F2ED6A02CDB85AC00DA9C79 /* NeverMindPixel-11pixel.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeverMindPixel-11pixel.ttf"; sourceTree = "<group>"; };
+		3F2ED6A62CDB863700DA9C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3F2ED6A72CDB875B00DA9C79 /* 方舟像素.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "方舟像素.ttf"; sourceTree = "<group>"; };
+		3F2ED6D12CDF144900DA9C79 /* EggAni.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggAni.swift; sourceTree = "<group>"; };
+		3F2ED6D42CDF506B00DA9C79 /* Egg.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Egg.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +71,11 @@
 		3F2ED68E2CDB83D600DA9C79 /* Egg */ = {
 			isa = PBXGroup;
 			children = (
+				3F2ED6D42CDF506B00DA9C79 /* Egg.entitlements */,
+				3F2ED6A62CDB863700DA9C79 /* Info.plist */,
 				3F2ED68F2CDB83D600DA9C79 /* EggApp.swift */,
 				3F2ED6912CDB83D600DA9C79 /* ContentView.swift */,
+				3F2ED6D12CDF144900DA9C79 /* EggAni.swift */,
 				3F2ED6932CDB83D800DA9C79 /* Assets.xcassets */,
 				3F2ED6952CDB83D800DA9C79 /* Preview Content */,
 			);
@@ -79,10 +93,7 @@
 		3F2ED6A12CDB85AC00DA9C79 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				3F2ED69D2CDB85AC00DA9C79 /* NeverMindPixel-5pixel.ttf */,
-				3F2ED69E2CDB85AC00DA9C79 /* NeverMindPixel-7pixel.ttf */,
-				3F2ED69F2CDB85AC00DA9C79 /* NeverMindPixel-9pixel.ttf */,
-				3F2ED6A02CDB85AC00DA9C79 /* NeverMindPixel-11pixel.ttf */,
+				3F2ED6A72CDB875B00DA9C79 /* 方舟像素.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -97,6 +108,7 @@
 				3F2ED6882CDB83D600DA9C79 /* Sources */,
 				3F2ED6892CDB83D600DA9C79 /* Frameworks */,
 				3F2ED68A2CDB83D600DA9C79 /* Resources */,
+				3F2ED6BD2CDCD71600DA9C79 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
@@ -145,12 +157,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F2ED6A42CDB85AC00DA9C79 /* NeverMindPixel-9pixel.ttf in Resources */,
 				3F2ED6972CDB83D800DA9C79 /* Preview Assets.xcassets in Resources */,
-				3F2ED6A32CDB85AC00DA9C79 /* NeverMindPixel-7pixel.ttf in Resources */,
 				3F2ED6942CDB83D800DA9C79 /* Assets.xcassets in Resources */,
-				3F2ED6A22CDB85AC00DA9C79 /* NeverMindPixel-5pixel.ttf in Resources */,
-				3F2ED6A52CDB85AC00DA9C79 /* NeverMindPixel-11pixel.ttf in Resources */,
+				3F2ED6A82CDB875B00DA9C79 /* 方舟像素.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +172,7 @@
 			files = (
 				3F2ED6922CDB83D600DA9C79 /* ContentView.swift in Sources */,
 				3F2ED6902CDB83D600DA9C79 /* EggApp.swift in Sources */,
+				3F2ED6D22CDF144900DA9C79 /* EggAni.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,14 +301,20 @@
 		3F2ED69B2CDB83D800DA9C79 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Egg/Egg.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Egg/Preview Content\"";
 				DEVELOPMENT_TEAM = 6P9693WTZ5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Egg/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need access to your step count to display your daily steps in the app.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We need access to your step count to display your daily steps in the app.";
+				INFOPLIST_KEY_NSHomeKitUsageDescription = "We need access to your step count to display your daily steps in the app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -310,7 +326,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = lan.egg.Egg;
+				PRODUCT_BUNDLE_IDENTIFIER = lan.egg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -321,14 +337,20 @@
 		3F2ED69C2CDB83D800DA9C79 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Egg/Egg.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Egg/Preview Content\"";
 				DEVELOPMENT_TEAM = 6P9693WTZ5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Egg/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need access to your step count to display your daily steps in the app.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We need access to your step count to display your daily steps in the app.";
+				INFOPLIST_KEY_NSHomeKitUsageDescription = "We need access to your step count to display your daily steps in the app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -340,7 +362,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = lan.egg.Egg;
+				PRODUCT_BUNDLE_IDENTIFIER = lan.egg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
